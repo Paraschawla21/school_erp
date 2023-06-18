@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+    padding: 0px;
+}
+
+.font-fmly span {
+    color: #0A60FF;
+}
+
+input::placeholder.asterik {
+    color: red;
+}
+
+input::placeholder::after {
+    content: "*";
+    color: #C30202
+}
+
+.react-tel-input .form-control {
+    border: none !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.font-fml {
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.para-sec h3 {
+    font-size: 24px !important;
+    line-height: 29px !important;
+}
+
+.border-select {
+    border: none !important;
+}
+
+::placeholder {
+    color: black;
+    /* color: #C30202; */
+}
+
+.space p {
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #0A0A0A;
+    font-weight: 500px;
+}
+
+.child-main-sec {
+    justify-content: space-between;
+    padding: 3.3rem 2rem;
+}
+
+.main-sec {
+    justify-content: space-between;
+    width: 95%;
+}
+
+.main-head {
+    text-align: end;
+}
+
+.btn-padd {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.p-uplod-sec {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0px !important;
+}
+
+.pc-uplod {
+    flex-basis: 20%;
+}
+
+.head-sec {
+    margin-top: 50px;
+}
+
+.plus-curcle {
+    background-color: #0A60FF;
+    transform: translateY(-32px);
+    width: 20px;
+    height: 20px;
+    margin-left: 85px;
+    border-radius: 50%;
+    text-align: center;
+    padding-bottom: 3px !important;
+}
+
+.plus {
+    color: white;
+    border-radius: 100%;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.para-sec p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.p-uplod-sec {
+    margin: 2rem 0;
+}
+
+.pc-uplod {
+    width: 50%;
+}
+
+.pc-uplod input {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+
+@media only screen and (max-width:1000px) {
+    .p-uplod-sec {
+        flex-direction: column;
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+    }
+    .btn-padd {
+        margin-left: 0px !important;
+    }
+    .font-fmly {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .btn-padd {
+        margin-left: 0px !important;
+    }
+    .pc-uplod {
+        text-align: left;
+    }
+}
+
+.input-main {
+    justify-content: left;
+    display: flex;
+    width: 100% !important;
+    /* border: 1px solid red; */
+}
+
+.main2 {
+    margin-top: 40px;
+}
+
+.inp-tell {
+    flex-basis: 50%;
+    /* border: 2px solid red; */
+}
+
+.bbb {
+    margin-left: 40px;
+}
+
+.img-user {
+    /* Width:127px;
+Height:127px; */
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border: 2px solid #0A60FF;
+    border-radius: 50%;
+}
+
+.img-user-uploaded {
+    width: 110px;
+    height: 110px;
+    border: 2px solid #0A60FF;
+    border-radius: 50%;
+}
+
+.input {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: none;
+    border-radius: 5px;
+    border: 1px solid #C8C8C8;
+    outline: none;
+}
+
+.input:hover {
+    border: 1px solid #0A60FF;
+}
+
+.pdg {
+    margin-top: 40px;
+}
+
+.pdg0:hover {
+    border: 1px solid black;
+}
+
+.pdg:hover {
+    border: 2px solid black;
+}
+
+.link {
+    font-family: 'Inter';
+    Width: 74px;
+    Height: 27px;
+    Size: 14px;
+    line-height: 22px;
+    text-align: end;
+    color: #0A60FF;
+}
+
+.align {
+    text-align: end;
+}
+
+.btn-upld-file {
+    border: 1px solid #0A60FF;
+    padding: 10px;
+    background-color: transparent;
+    /* font-family: Bahnschrift SemiBold; */
+    font-family: 'Inter';
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1000px) {
+    .input-main {
+        flex-direction: column;
+    }
+    .bbb {
+        margin: 10px 0px;
+    }
+    .pdg {
+        margin: 10px 0px;
+    }
+    .weight {
+        margin-right: 0px;
+    }
+    .weightt {
+        margin-left: 0px !important;
+    }
+}
+
+.childFirst {
+    width: 95%;
+}
+
+.childLast {
+    width: 95%;
+}
+
+@media only screen and (max-width:1000px) {
+    .dob {
+        width: 95%;
+    }
+    .age {
+        width: 95%;
+    }
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#span {
+    color: red;
+}

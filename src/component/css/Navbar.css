@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+    padding: 0px;
+}
+
+.navbar-child {
+    padding-left: 2rem !important;
+}
+
+.active {
+    background-color: #0A60FF !important;
+    color: white !important;
+}
+
+.navbar-head {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar-child {
+    flex-basis: 25%;
+    /* background-color: rgb(231, 225, 225); */
+    background-color: rgba(217, 217, 217, 0.2);
+    /* height: 100vh; */
+    height: auto;
+
+
+
+}
+
+.algn {
+
+    padding: 10px;
+
+
+}
+
+.tp-pding {
+    padding: 3rem 0rem;
+    height: 100vh;
+
+}
+
+.navbar-child2 {
+    flex-basis: 75%;
+    background-color: #FFFFFF;
+}
+
+.navbar-img {
+    width: 30px;
+    margin: 0px 10px !important;
+    height: 40px;
+    position: absolute;
+
+
+
+}
+
+.Link-tag {
+    width: 100%;
+    height: auto;
+    padding: 2.5rem 0;
+}
+
+.space {
+    margin: 6px 0px;
+}
+
+.left {
+    margin-left: 50px;
+}
+
+.button {
+    background-color: #0A60FF;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    font-family: Inter;
+}
+
+.Link {
+    font-family: 'Inter', sans-serif;
+    font-family: semi bold;
+    display: block;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding-left: 0 !important;
+}
+
+.Link span {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+    font-family: 'Inter' !important;
+    margin: 0px 20px;
+    color: #0A0A0A;
+    font-family: semi bold;
+    font-weight: bold;
+
+}
+
+.Link label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width:1000px) {
+    .Link span {
+        flex-direction: column;
+
+    }
+
+    .left {
+        margin-left: 0px;
+    }
+
+    .Link-tag {
+        padding-left: 0px !important;
+    }
+
+    .algn {
+
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width:765px) {
+    .font-fmly label {
+        display: none;
+    }
+}

@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    padding: 0px;
+}
+.input-form-sub{
+    border: 1px solid red;
+}

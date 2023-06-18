@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    padding: 0px;
+}
+
+.weight-height-mement {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.weight-m {
+    /* flex-direction: column !important; */
+    /* border: 2px solid green; */
+    flex-basis: 50%;
+}
+
+.addSiblingsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formItem {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.weight {
+    margin-right: 20px;
+}
+
+.weightt {
+    margin-left: 30px;
+}
+
+.form-flex {
+    width: 100% !important;
+}
+
+.space p,
+.align {
+    margin: 3px 0px;
+}
+
+@media only screen and (max-width:1000px) {
+    .input-main {
+        flex-direction: column;
+    }
+    .bbb {
+        margin: 10px 0px;
+    }
+    .pdg {
+        margin: 10px 0px;
+    }
+    .weight {
+        margin-right: 0px;
+    }
+    .weightt {
+        margin-left: 0px !important;
+    }
+}
+
+.sibling-name {
+    height: 40px;
+    margin-right: 40px;
+    background-color: none;
+    border-radius: 5px;
+    border: 1px solid #C8C8C8;
+    outline: none;
+}
+
+.dob {
+    height: 40px;
+    background-color: none;
+    border-radius: 5px;
+    border: 1px solid #C8C8C8;
+    outline: none;
+}
+
+.allergies {
+    padding-left: 10px;
+    width: 97.5%;
+    height: 40px;
+    background-color: none;
+    border-radius: 5px;
+    border: 1px solid #C8C8C8;
+    outline: none;
+}
+
+.height {
+    width: 95%;
+}
